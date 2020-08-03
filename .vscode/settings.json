@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/Users/hormone03/anaconda3/bin/python",
+
+        "python.linting.pylintArgs": [
+            "--load-plugins",
+            "pylint_django",
+        ]
+    
+}
