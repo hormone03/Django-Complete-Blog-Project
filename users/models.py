@@ -13,7 +13,7 @@ class Profile(models.Model):
     def __str__(self):
         return f'{self.user.username} Profile'
         #it will print the username and the profile
-    def save(self):
+    def save(self, *args, **kawrgs):
         super().save()
 
         img = Image.open(self.image.path)
