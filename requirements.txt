@@ -33,7 +33,6 @@ chardet==3.0.4
 claude==0.4.3
 click==6.7
 cloudpickle==0.5.3
-clyent==1.2.2
 colorama==0.3.9
 command-tree==0.7.1
 conda==4.7.11
