@@ -13,12 +13,14 @@ class Profile(models.Model):
     def __str__(self):
         return f'{self.user.username} Profile'
         #it will print the username and the profile
-    def save(self, *args, **kawrgs):
-        super().save()
+       
+    #For resizing.... but if u are using aws s3 for storage, it won't work with resizing    
+    #def save(self, *args, **kawrgs):
+        #super().save()
 
-        img = Image.open(self.image.path)
+        #img = Image.open(self.image.path)
 
-        if img.height > 300 or img.width > 300:
-            output_size = (300, 300)
-            img.thumbnail(output_size)
-            img.save(self.image.path)
+        #if img.height > 300 or img.width > 300:
+            #output_size = (300, 300)
+            #img.thumbnail(output_size)
+            #img.save(self.image.path)
