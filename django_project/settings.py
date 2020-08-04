@@ -142,7 +142,6 @@ EMAIL_HOST_PASSWORD = os.environ.get('DB_PASS')
 EMAIL_USER = os.environ.get('EMAIL_USER')
 EMAIL_PASS = os.environ.get('EMAIL_PASS')
 
-
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
